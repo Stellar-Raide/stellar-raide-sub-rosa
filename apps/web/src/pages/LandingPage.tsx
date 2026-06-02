@@ -87,12 +87,7 @@ export function LandingPage({
                 />
               </svg>
             </button>
-            <a
-              className="secondary-action"
-              href="https://github.com/Stellar-Raide/stellar-raide-stellar-raide-stellar-raide-sub-rosa"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a className="secondary-action" href="#/architecture">
               Read the architecture
             </a>
           </motion.div>
