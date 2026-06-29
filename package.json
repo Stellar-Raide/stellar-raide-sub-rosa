@@ -38,6 +38,8 @@
     "web:dev": "pnpm --filter @stellar-raide-stellar-raide-sub-rosa/web dev",
     "web:build": "pnpm --filter @stellar-raide-stellar-raide-sub-rosa/web build",
     "web:test": "pnpm --filter @stellar-raide-stellar-raide-sub-rosa/web test",
-    "web:typecheck": "pnpm --filter @stellar-raide-stellar-raide-sub-rosa/web typecheck"
+    "web:typecheck": "pnpm --filter @stellar-raide-stellar-raide-sub-rosa/web typecheck",
+    "grant-scoring:test": "pnpm --filter @stellar-raide-stellar-raide-sub-rosa/grant-scoring-pilot test",
+    "grant-scoring:start": "pnpm --filter @stellar-raide-stellar-raide-sub-rosa/grant-scoring-pilot start"
   }
 }
