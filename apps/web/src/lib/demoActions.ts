@@ -6,7 +6,7 @@ import {
   createSessionMandate,
   MandateCapError,
   usdcToStroops,
-} from "@stellar-raide-stellar-raide-sub-rosa/agent";
+} from "@stellar-raide-stellar-raide-sub-rosa/agent/mandate";
 import {
   commitment,
   currentRound,
