@@ -4,7 +4,7 @@ import {
   signAuthEntry,
   signTransaction,
 } from "@stellar/freighter-api";
-import { RoundContract } from "@stellar-raide-stellar-raide-sub-rosa/sdk";
+import { RoundContract, SubRosaClient } from "@stellar-raide-stellar-raide-sub-rosa/sdk";
 import { useMemo } from "react";
 
 export const LOGO_SRC = "/stellar-raide-stellar-raide-sub-rosa-logo.png";
@@ -122,6 +122,17 @@ export function useReadOnlyContract() {
   return useMemo(() => {
     if (!CONTRACT_ID) return null;
     return new RoundContract({
+      contractId: CONTRACT_ID,
+      networkPassphrase: NETWORK,
+      rpcUrl: RPC_URL,
+    });
+  }, []);
+}
+
+export function useReadOnlySdk() {
+  return useMemo(() => {
+    if (!CONTRACT_ID) return null;
+    return new SubRosaClient({
       contractId: CONTRACT_ID,
       networkPassphrase: NETWORK,
       rpcUrl: RPC_URL,
