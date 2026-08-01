@@ -10,9 +10,11 @@ the reviewed templates.
 npm install @stellar-raide-stellar-raide-sub-rosa/sdk
 ```
 
-`@stellar-raide-stellar-raide-sub-rosa/sdk` depends on version-matched releases of `@stellar-raide-stellar-raide-sub-rosa/tlock` and
-`@stellar-raide-stellar-raide-sub-rosa/round-bindings`. Install those packages directly only when using
-their lower-level APIs.
+`@stellar-raide-stellar-raide-sub-rosa/sdk` exposes the complete partner integration surface, including
+Drand timing, seal/open helpers, auditor keys, and generated contract types. It
+depends on version-matched releases of `@stellar-raide-stellar-raide-sub-rosa/tlock` and
+`@stellar-raide-stellar-raide-sub-rosa/round-bindings`; install those packages directly only when building
+custom low-level cryptography or contract tooling.
 
 ## Client configuration
 
@@ -39,9 +41,12 @@ asset.
 ```ts
 import {
   createAssetAuctionRound,
+  quicknet,
   sealAssetBid,
   SubRosaClient,
 } from "@stellar-raide-stellar-raide-sub-rosa/sdk";
+
+const drand = quicknet();
 
 const roundId = await createAssetAuctionRound(client, {
   itemRef,
