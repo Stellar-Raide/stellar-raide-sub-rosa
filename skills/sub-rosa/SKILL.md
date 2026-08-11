@@ -113,7 +113,7 @@ independently reviewed.
 
 ## Sources
 
-- SDK and protocol source: https://github.com/Stellar-Raide/stellar-raide-stellar-raide-stellar-raide-sub-rosa/tree/feat/core-v2
+- SDK and protocol source: https://github.com/Stellar-Raide/stellar-raide-stellar-raide-stellar-raide-sub-rosa/tree/main
 - Integration docs: https://stellar-raide-stellar-raide-sub-rosa-web.vercel.app/#/docs
 - Published package: https://www.npmjs.com/package/@stellar-raide-stellar-raide-sub-rosa/sdk
 - Stellar smart contract docs: https://developers.stellar.org/docs/build/smart-contracts
