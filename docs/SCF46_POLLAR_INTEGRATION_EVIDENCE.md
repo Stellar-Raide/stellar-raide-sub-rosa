@@ -6,6 +6,11 @@ Last updated: 2026-11-05
 
 **Working local adapter; live Pollar-signed testnet proof pending credentials.**
 
+- Implementation commit: https://github.com/Stellar-Raide/stellar-raide-stellar-raide-stellar-raide-sub-rosa/commit/03cb8ec
+- Review PR: https://github.com/Stellar-Raide/stellar-raide-stellar-raide-stellar-raide-sub-rosa/pull/1
+- npm package: not published; `@stellar-raide-stellar-raide-sub-rosa/pollar-adapter` returned no public
+  registry version on 2026-11-05.
+
 This document deliberately distinguishes implementation from validation,
 publication, listing, and adoption. A local unit test is not a Pollar-signed
 testnet transaction.
