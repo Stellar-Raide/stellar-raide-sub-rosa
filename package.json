@@ -33,6 +33,8 @@
     "pollar-adapter:test": "pnpm --filter @stellar-raide-stellar-raide-sub-rosa/pollar-adapter test",
     "pollar-adapter:typecheck": "pnpm --filter @stellar-raide-stellar-raide-sub-rosa/pollar-adapter typecheck",
     "pollar-adapter:build": "pnpm --filter @stellar-raide-stellar-raide-sub-rosa/pollar-adapter build",
+    "pollar-e2e:dev": "pnpm --filter @stellar-raide-stellar-raide-sub-rosa/pollar-e2e dev",
+    "pollar-e2e:build": "pnpm --filter @stellar-raide-stellar-raide-sub-rosa/pollar-e2e build",
     "packages:build": "pnpm --filter @stellar-raide-stellar-raide-sub-rosa/round-bindings build && pnpm --filter @stellar-raide-stellar-raide-sub-rosa/tlock build && pnpm --filter @stellar-raide-stellar-raide-sub-rosa/sdk build && pnpm --filter @stellar-raide-stellar-raide-sub-rosa/pollar-adapter build",
     "packages:pack": "node scripts/verify-public-packages.mjs",
     "packages:publish": "node scripts/publish-public-packages.mjs",
