@@ -345,3 +345,12 @@ or generated local deployment artifacts, and document any change to protocol,
 security, or evidence boundaries.
 
 Sub Rosa is licensed under the [MIT License](./LICENSE).
+
+## Resolved Issues
+
+The following issues have been addressed in this release:
+
+- Added issue templates for bug reports and feature requests
+- Added contributing guidelines and CODEOWNERS
+- Improved repository documentation and onboarding
+
